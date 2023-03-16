@@ -1,4 +1,4 @@
-package bubble
+package _select
 
 import (
 	"fmt"
@@ -9,7 +9,7 @@ import (
 
 var num = 10
 
-func TestBubbleSort(t *testing.T) {
+func TestSelectSort(t *testing.T) {
 	data := testData()
 	sorted := make([][]int, 0)
 	for _, item := range data {

@@ -1,6 +1,6 @@
-package bubble
+package _select
 
-// Sort 冒泡排序
+// Sort 选择排序
 func Sort(a []int) []int {
 	for i := 0; i < len(a); i++ {
 		for j := i + 1; j < len(a); j++ {
@@ -10,5 +10,4 @@ func Sort(a []int) []int {
 		}
 	}
 	return a
-
 }
